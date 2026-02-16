@@ -24,8 +24,8 @@ grekt sync            # sync artifacts to your AI tools
 |------|-------------|
 | [cli](https://github.com/grekt-labs/cli) | The grekt CLI |
 | [cli-engine](https://github.com/grekt-labs/cli-engine) | Core engine powering the CLI and integrations |
-| [docs](https://github.com/grekt-labs/docs) | Documentation |
-| [docs-dev](https://github.com/grekt-labs/docs-dev) | Developer docs for building integrations |
+| [docs](https://github.com/grekt-labs/docs) | [Documentation](https://grekt.com/en-US/docs/guide/introduction.html) |
+| [docs-dev](https://github.com/grekt-labs/docs-dev) | [Developer docs](https://developer.grekt.com/en-US/docs/guide/introduction.html) for building integrations |
 
 ## Roadmap
 
