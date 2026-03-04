@@ -2,7 +2,7 @@
 
 The open artifact manager for AI tools.
 
-grekt treats AI configurations (system prompts, rules, agents, skills, hooks, MCPs) as first-class artifacts with versioning, integrity checks, and a plugin-based sync system. It supports current and emerging AI tools — if a new agent or coding assistant appears tomorrow, grekt is ready.
+grekt treats AI configurations (system prompts, rules, agents, skills, hooks, MCPs) as first-class artifacts with versioning, integrity checks, and a plugin-based sync system. It supports current and emerging AI tools, if a new agent or coding assistant appears tomorrow, grekt is ready.
 
 ## Get Started
 
@@ -46,21 +46,21 @@ What we're actively building and refining.
 What's coming after current work stabilizes.
 
 - **Focus on auditability** - Look for integrations or features that will allow teams to trust it's own AI stack.
-- **Private artifacts** — publish private artifacts to the grekt registry, visible only to you or your organization
-- **Organizations and teams** — shared artifact ownership, access control, team workspaces
-- **Verified publishers** — trust signals for artifact authors and organizations
-- **Granular capability policies** — leverage declared capabilities for fine-grained access control and auditing
-- **Registry hardening** — improving the publish/download flow, error handling, and edge
-- **Artifact kits** — curated collections for team onboarding and standardization
+- **Private artifacts** - publish private artifacts to the grekt registry, visible only to you or your organization
+- **Organizations and teams** - shared artifact ownership, access control, team workspaces
+- **Verified publishers** - trust signals for artifact authors and organizations
+- **Granular capability policies** - leverage declared capabilities for fine-grained access control and auditing
+- **Registry hardening** - improving the publish/download flow, error handling, and edge
+- **Artifact kits** - curated collections for team onboarding and standardization
 
 ### Later
 
 Directions we're exploring. No timelines.
 
-- **Discovery and insights** — compatibility matrix, trending artifacts, usage analytics
+- **Discovery and insights** - compatibility matrix, trending artifacts, usage analytics
 
 > Have ideas or feedback? [Open an issue](https://github.com/grekt-labs/cli/issues) or start a [discussion](https://github.com/grekt-labs/cli/discussions).
 
 ## License
 
-grekt is source-available under [BSL 1.1](https://github.com/grekt-labs/cli/blob/main/LICENSE). You can use it freely for any purpose — personal, commercial, internal tooling — as long as you don't use the code to build a competing product. Each version converts to MIT after two years. [Learn more](https://github.com/grekt-labs/cli/blob/main/LICENSING.md).
+grekt is source-available under [BSL 1.1](https://github.com/grekt-labs/cli/blob/main/LICENSE). You can use it freely for any purpose personal, commercial, internal tooling, as long as you don't use the code to build a competing product. Each version converts to MIT after two years. [Learn more](https://github.com/grekt-labs/cli/blob/main/LICENSING.md).
