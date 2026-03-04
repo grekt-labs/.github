@@ -11,6 +11,10 @@ curl -fsSL https://grekt.com/install.sh | sh
 ```
 
 ```bash
+npm i -g @grekt/cli
+```
+
+```bash
 grekt init            # initialize a project
 grekt add @scope/name # add an artifact from the registry
 grekt sync            # sync artifacts to your AI tools
