@@ -23,7 +23,7 @@ grekt sync            # sync artifacts to your AI tools
 | Repo | Description |
 |------|-------------|
 | [cli](https://github.com/grekt-labs/cli) | The grekt CLI |
-| [cli-engine](https://github.com/grekt-labs/cli-engine) | Core engine powering the CLI and integrations |
+| [engine](https://github.com/grekt-labs/engine) | Core engine powering the CLI and integrations |
 | [docs](https://github.com/grekt-labs/docs) | [Documentation](https://grekt.com/en-US/docs/guide/introduction.html) |
 | [docs-dev](https://github.com/grekt-labs/docs-dev) | [Developer docs](https://developer.grekt.com/en-US/docs/guide/introduction.html) for building integrations |
 
@@ -34,27 +34,25 @@ This roadmap reflects our current direction. It's not a promise — priorities s
 ### Now
 
 What we're actively building and refining.
-
-- **Registry hardening** — improving the publish/download flow, error handling, and edge cases
-- **Monorepo workflows** — batch operations, selective publishing, workspace management
-- **Artifact kits** — curated collections for team onboarding and standardization
+- **Artifact evals** - Testing your artifacts with deterministic evals or through LLM-as-judge (for non deterministic components)
+- **Self-hosted control dashboard** - Following our principles we are creating a dashboard to allow you see all your projects easily, fully self-hosted. We do not track/store anything. You will be the owner of your data :)
 
 ### Next
 
 What's coming after current work stabilizes.
 
+- **Focus on auditability** - Look for integrations or features that will allow teams to trust it's own AI stack.
 - **Private artifacts** — publish private artifacts to the grekt registry, visible only to you or your organization
 - **Organizations and teams** — shared artifact ownership, access control, team workspaces
 - **Verified publishers** — trust signals for artifact authors and organizations
-- **Security preview** — warnings and transparency for untrusted or unverified artifacts before installation
 - **Granular capability policies** — leverage declared capabilities for fine-grained access control and auditing
+- **Registry hardening** — improving the publish/download flow, error handling, and edge
+- **Artifact kits** — curated collections for team onboarding and standardization
 
 ### Later
 
 Directions we're exploring. No timelines.
 
-- **Artifact composability** — combine and extend artifacts at runtime
-- **CI/CD integration** — automate artifact publishing and policy validation in pipelines
 - **Discovery and insights** — compatibility matrix, trending artifacts, usage analytics
 
 > Have ideas or feedback? [Open an issue](https://github.com/grekt-labs/cli/issues) or start a [discussion](https://github.com/grekt-labs/cli/discussions).
