@@ -7,7 +7,7 @@ grekt treats AI configurations (system prompts, rules, agents, skills, hooks, MC
 ## Get Started
 
 ```bash
-curl -fsSL https://grekt.com/install.sh | sh
+curl -fsSL https://cli.grekt.com/install.sh | sh
 ```
 
 ```bash
