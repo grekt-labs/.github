@@ -33,19 +33,16 @@ grekt sync            # sync artifacts to your AI tools
 
 ## Roadmap
 
-This roadmap reflects our current direction. It's not a promise — priorities shift as we learn.
+This roadmap reflects our current direction. It's not a promise priorities shift as we learn.
 
 ### Now
 
 What we're actively building and refining.
-- **Artifact evals** - Testing your artifacts with deterministic evals or through LLM-as-judge (for non deterministic components)
-- **Self-hosted control dashboard** - Following our principles we are creating a dashboard to allow you see all your projects easily, fully self-hosted. We do not track/store anything. You will be the owner of your data :)
+- **Focus on auditability** - Look for integrations or features that will allow teams to trust it's own AI stack.
 
 ### Next
 
 What's coming after current work stabilizes.
-
-- **Focus on auditability** - Look for integrations or features that will allow teams to trust it's own AI stack.
 - **Private artifacts** - publish private artifacts to the grekt registry, visible only to you or your organization
 - **Organizations and teams** - shared artifact ownership, access control, team workspaces
 - **Verified publishers** - trust signals for artifact authors and organizations
